@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="14dp">
+
+            <ImageView
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+                android:id="@+id/logo_shree"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:src="@mipmap/shree_icon"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="14dp">
+
+                <ImageView
+                    android:id="@+id/rquest_icon"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:src="@mipmap/request"/>
+
+                <ImageView
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:src="@mipmap/for_sale"
+                    android:layout_centerHorizontal="true"
+                    />
+
+                <ImageView
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:src="@mipmap/sell"
+                   android:layout_alignParentEnd="true"
+                    android:layout_marginStart="75dp"
+                    />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:fontFamily="sans-serif-black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/requestProduct"
+            android:layout_centerHorizontal="true"
+            android:text="Buy power at shree"
+            android:layout_margin="8dp"
+            android:textSize="18sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"/>
+
+        <Button
+            android:fontFamily="sans-serif-black"
+            android:id="@+id/requestProduct"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/button"
+            android:text="Request For Product"
+            android:textSize="16sp"
+            android:textColor="#ffffff"/>
+
+        <Button
+            android:fontFamily="sans-serif-black"
+            android:id="@+id/sellProduct"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/requestProduct"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button"
+            android:text="Sell Your Product"
+            android:textSize="16sp"
+            android:textColor="#ffffff"/>
+
+        <Button
+            android:fontFamily="sans-serif-black"
+            android:id="@+id/rentProduct"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sellProduct"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:background="@drawable/button"
+            android:text="Rent Your Product"
+            android:textSize="16sp"
+            android:textColor="#ffffff"/>
+    </RelativeLayout>
+</FrameLayout>

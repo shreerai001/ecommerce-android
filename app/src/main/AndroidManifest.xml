@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.shree.ecom">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".utils.di.App"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/shree_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/shree_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".activityBrowse.BrowseFragment"></activity>
+        <activity android:name=".activityBrowse.view.slider.ImageSliderActivity" />
+        <activity android:name=".activityCartProceed.view.ShippingAddressActivity" />
+        <activity android:name=".activityCartProceed.view.CartProceedActivity" />
+        <activity android:name=".activitySellRegister.view.RegisterSellerActivity" />
+        <activity android:name=".activityBrowse.view.activity.NewEquipmentActivity" />
+        <activity android:name=".activityBrowse.view.activity.RentalEquipmentActivity" />
+        <activity android:name=".activityBrowse.view.activity.UsedEquipmentActivity" />
+        <activity
+            android:name=".activitySearch.view.SearchScreenActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.shree.ecom.Main2Activity" />
+        </activity>
+        <activity
+            android:name=".activityRequestProduct.RequestProductActivity"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".activityRent.RentActivity" />
+        <activity
+            android:name=".activityMyCart.MyCartActivity"
+            android:label="My Cart"
+            android:parentActivityName=".Main2Activity" />
+        <activity
+            android:name=".activityWhishlist.view.WishlistActivity"
+            android:label="Wishlist"
+            android:parentActivityName=".Main2Activity" />
+        <activity android:name=".activityWhishlist.view.CancelWishlistActivity" />
+        <activity
+            android:name=".activityCancelOrders.CancelOrderActivity"
+            android:label="Cancel Orders"
+            android:parentActivityName=".activityMyOrders.views.MyOrdersActivity" />
+        <activity
+            android:name=".activityMyOrders.views.MyOrdersActivity"
+            android:label="My Orders"
+            android:parentActivityName=".Main2Activity" />
+        <activity android:name=".activityPasswordChange.PasswordChangeActivity" />
+        <activity android:name=".reviews.view.ReviewActivity" />
+        <activity
+            android:name=".activityProfile.view.ProfileActivity"
+            android:label="Profile"
+            android:parentActivityName=".Main2Activity" />
+        <activity
+            android:name=".OfflineActivity"
+            android:label="Offline"
+            android:parentActivityName=".Main2Activity" />
+        <activity android:name=".activityFilter.view.FilterActivity" />
+        <activity android:name=".blogs.BlogsAcitvity" />
+        <activity
+            android:name=".Main2Activity"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".contacts.activityPolicy.view.PoliciesActivity" />
+        <activity android:name=".contacts.AboutUsActivity" />
+        <activity android:name=".contacts.activityContactUs.view.ContactUsActivity" />
+        <activity android:name=".contacts.activityContacts.ContactActivity" />
+        <activity android:name=".activitySignUp.view.CredentialSignUpActivity" />
+        <activity android:name=".activitySignUp.view.BasicSignUpActivity" />
+        <activity android:name=".activityProfile.view.ProfileEditActivity" />
+        <activity android:name=".utils.di.BaseActivity" />
+        <activity
+            android:name=".activitySignUp.view.SignUpActivity"
+            android:label="Sign Up"
+            android:parentActivityName=".Main2Activity" />
+        <activity
+            android:name=".activityLogin.LoginActivity"
+            android:parentActivityName=".Main2Activity"></activity>
+        <activity
+            android:name=".activityProductDetail.view.ProductDetailActivity"
+            android:parentActivityName=".Main2Activity" />
+        <activity android:name=".activityBrowse.view.activity.AllEquipmentProductActivity" />
+    </application>
+
+</manifest>

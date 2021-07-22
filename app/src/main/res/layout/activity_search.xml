@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativesearch"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activitySearch.view.SearchScreenActivity">
+
+    <com.mancj.materialsearchbar.MaterialSearchBar
+        android:id="@+id/searchBar"
+        style="@style/MaterialSearchBarLight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:mt_maxSuggestionsCount="10"
+        app:mt_navIconEnabled="true"
+        app:mt_placeholder="shree Search" />
+
+    <LinearLayout
+        android:id="@+id/sortandfilter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/searchBar"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/sort"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:drawableLeft="@drawable/ic_sort_24dp"
+            android:text="Sort"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/filter"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:drawableLeft="@drawable/ic_filter_24dp"
+            android:text="Filter"
+            android:textAllCaps="false" />
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/searchProgress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+    <!--<TextView-->
+    <!--android:padding="10dp"-->
+    <!--android:id="@+id/txt_sort"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="Sort"-->
+    <!--android:textSize="20sp"-->
+    <!--android:drawableStart="@drawable/ic_sort_24dp"-->
+    <!--android:textAppearance="@style/TextAppearance.AppCompat.Body1"-->
+    <!--android:layout_below="@id/searchBar"-->
+    <!--android:layout_marginStart="6dp"-->
+    <!--android:drawablePadding="22dp"/>-->
+
+    <!--<View-->
+    <!--android:id="@+id/view1"-->
+    <!--android:layout_width="1.5dp"-->
+    <!--android:layout_height="43dp"-->
+    <!--android:layout_below="@+id/searchBar"-->
+    <!--android:layout_marginStart="95dp"-->
+    <!--android:layout_toEndOf="@id/txt_sort"-->
+    <!--android:background="@color/grey400"-->
+    <!--android:layout_marginTop="5dp"/>-->
+
+    <!--<TextView-->
+
+    <!--android:id="@+id/txt_filter"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="Filter"-->
+    <!--android:textSize="20sp"-->
+    <!--android:padding="10dp"-->
+    <!--android:drawableEnd="@drawable/ic_sort_24dp"-->
+    <!--android:textAppearance="@style/TextAppearance.AppCompat.Body1"-->
+    <!--android:layout_alignParentEnd="true"-->
+    <!--android:layout_below="@id/searchBar"-->
+    <!--android:layout_marginEnd="6dp"-->
+    <!--android:drawablePadding="22dp"/>-->
+
+    <!--<View-->
+    <!--android:id="@+id/view2"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="1.5dp"-->
+    <!--android:layout_below="@+id/txt_filter"-->
+    <!--android:background="@color/grey400"-->
+    <!--android:layout_margin="6dp"/>-->
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/search_result"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/sortandfilter">
+
+    </android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>

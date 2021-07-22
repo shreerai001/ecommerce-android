@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="5dp"
+    android:layout_margin="10dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_image"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:src="@drawable/image_shadow"
+                app:civ_border_width="2dp"
+                app:civ_border_color="#FF000000"/>
+
+            <TextView
+                android:id="@+id/profile_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/profile_image"
+                android:text="profile name"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="17sp"
+                android:layout_margin="14dp"/>
+
+            <TextView
+                android:id="@+id/profile_subtilte"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/profile_image"
+                android:text="subtiltle"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="14dp"
+                android:layout_below="@+id/profile_name"
+                android:layout_marginStart="14dp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/icon_about_us"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:src="@drawable/image_shadow" />
+
+            <TextView
+                android:id="@+id/txt_about"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/icon_about_us"
+                android:text="About name"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="17sp"
+                android:layout_margin="14dp"/>
+
+            <TextView
+                android:id="@+id/about_subtilte"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/icon_about_us"
+                android:text="subtiltle"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="14dp"
+                android:layout_below="@+id/txt_about"
+                android:layout_marginStart="14dp"/>
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/icon_policy"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:src="@drawable/image_shadow" />
+
+            <TextView
+                android:id="@+id/txt_policy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/icon_policy"
+                android:text="Policy"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="17sp"
+                android:layout_margin="14dp"/>
+
+            <TextView
+                android:id="@+id/policy_subtilte"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/icon_policy"
+                android:text="subtiltle"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="14dp"
+                android:layout_below="@+id/txt_policy"
+                android:layout_marginStart="14dp"/>
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/icon_contact_us"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:src="@drawable/image_shadow" />
+
+            <TextView
+                android:id="@+id/txt_contact_us"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/icon_contact_us"
+                android:text="Contact Us"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="17sp"
+                android:layout_margin="14dp"/>
+
+            <TextView
+                android:id="@+id/contact_us_subtilte"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/icon_contact_us"
+                android:text="subtiltle"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="14dp"
+                android:layout_below="@+id/txt_contact_us"
+                android:layout_marginStart="14dp"/>
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/icon_contact"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:src="@drawable/image_shadow" />
+
+            <TextView
+                android:id="@+id/txt_contact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/icon_contact"
+                android:text="Contact"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="17sp"
+                android:layout_margin="14dp"/>
+
+            <TextView
+                android:id="@+id/contact_subtilte"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/icon_contact"
+                android:text="subtiltle"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="14dp"
+                android:layout_below="@+id/txt_contact"
+                android:layout_marginStart="14dp"/>
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/icon_blogs"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:src="@drawable/image_shadow" />
+
+            <TextView
+                android:id="@+id/txt_blogs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/icon_blogs"
+                android:text="Blogs"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="17sp"
+                android:layout_margin="14dp"/>
+
+            <TextView
+                android:id="@+id/blogs_subtilte"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/icon_blogs"
+                android:text="subtiltle"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="14dp"
+                android:layout_below="@+id/txt_blogs"
+                android:layout_marginStart="14dp"/>
+
+
+
+        </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

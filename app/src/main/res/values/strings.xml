@@ -1,0 +1,169 @@
+<resources>
+
+    <string name="generic_no_internet_title">
+        Try again later
+    </string>
+    <string name="generic_no_internet_desc">
+        No internet connection
+    </string>
+    <string name="generic_http_error_title">
+        Error
+    </string>
+    <string name="generic_http_error_desc">
+        HTTP error code::
+    </string>
+    <string name="error_login_expired">
+        Login Session expired
+    </string>
+    <string-array name="category">
+        <item>Select Category</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+
+    </string-array>
+
+    <string-array name="brand">
+        <item>Any Brand</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+
+    </string-array>
+
+    <string-array name="buy_rental">
+        <item>Buy or Rental</item>
+        <item>United States</item>
+        <item>Indonesia</item>
+        <item>France</item>
+        <item>Italy</item>
+        <item>Singapore</item>
+        <item>New Zealand</item>
+        <item>India</item>
+    </string-array>
+
+    <string-array name="select_condition">
+        <item>Select Codition</item>
+        <item>United States</item>
+        <item>Indonesia</item>
+        <item>France</item>
+        <item>Italy</item>
+        <item>Singapore</item>
+        <item>New Zealand</item>
+        <item>India</item>
+    </string-array>
+
+    <string name="app_name">shree rai</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Categories</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="filter">Filter</string>
+    <string name="aboutus">
+        Java is a programming language that developers use to create applications on your computer.
+        Chances are youve downloaded a program that required the Java runtime, and so you probably
+        have it installed it on your system. Java also has a web plug-in that allows you to run these apps in your browser
+
+    </string>
+    <string name="title_activity_main2">shree rai</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="menu_wishlist">Wishlist</string>
+    <string name="action_settings">Settings</string>
+    <string name="srch">Search</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+
+    <string name="title">RangeBar</string>
+    <string name="tickCount">tickCount = 7</string>
+    <string name="tickHeight">tickHeight = 24</string>
+    <string name="barWeight">barWeight = 2</string>
+    <string name="barColor">barColor = #CCCCCC</string>
+    <string name="connectingLineWeight">connectingLineWeight = 4</string>
+    <string name="connectingLineColor">connectingLineColor = #33B5E5</string>
+    <string name="thumbRadius">thumbRadius = N/A</string>
+    <string name="thumbColorNormal">thumbColorNormal = N/A</string>
+    <string name="thumbColorPressed">thumbColorPressed = N/A</string>
+    <string name="confirmNewColor">New</string>
+    <string name="confirmDefaultColor">Default</string>
+    <string name="colorPickerTitle">Select a Color</string>
+    <string name="resetThumbColors">Reset Thumb Colors</string>
+    <string name="leftIndexValue">0</string>
+    <string name="leftIndex">leftIndex</string>
+    <string name="rightIndexValue">6</string>
+    <string name="rightIndex">rightIndex</string>
+    <string name="refresh">Refresh Indices</string>
+
+    <string name="share">Share</string>
+    <string name="list_button">List</string>
+    <string name="grid_button">Grid</string>
+    <string name="intent_picker">Intent Picker</string>
+    <string name="menu_resource">Inflating a Menu</string>
+    <string name="document">Document</string>
+    <string name="spreadsheet">Spreadsheet</string>
+    <string name="folder">Folder</string>
+    <string name="upload_photos">Upload photos or videos</string>
+    <string name="use_camera">Use camera</string>
+    <string name="share_some_text">Share some text!</string>
+    <string name="image_picker">Image picker</string>
+    <string name="show">Show</string>
+    <string name="reopen">Reopen as other type</string>
+    <string name="bottomsheet_fragment">BottomSheet Fragment</string>
+    <string name="equipement">Equipement</string>
+    <string name="material">Material</string>
+
+    <string name="title_activity_search_screen">SearchScreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="newest">Newest</string>
+    <string name="a_z">A-Z</string>
+    <string name="lowest">Lowest-highest</string>
+    <string name="highest_lowest">Highest-Lowest</string>
+    <string name="sort_detail">Sort Detail</string>
+    <string name="z_a">z-a</string>
+
+    <string-array name="city">
+        <item>Select City</item>
+        <item>ktm</item>
+        <item>Pokhara</item>
+        <item>Biratnagar</item>
+        <item>Dhankuta</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+
+    </string-array>
+
+    <string-array name="state">
+        <item>Select State</item>
+        <item>state 1</item>
+        <item>state 2</item>
+        <item>state 3</item>
+        <item>state 4</item>
+        <item>state 5</item>
+        <item>state 6</item>
+        <item>state 7</item>
+
+    </string-array>
+
+    <string name="text_with_bullet">Text with a \u2022</string>
+
+    <string name="Rs">\u20B9</string>
+
+
+</resources>

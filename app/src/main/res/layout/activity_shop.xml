@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".activityBrowse.BrowseFragment">
+
+    <TextView
+        android:id="@+id/all_shop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="All" />
+
+    <TextView
+        android:id="@+id/new_shop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/all_shop"
+        android:layout_margin="10dp"
+        android:text="new" />
+
+    <TextView
+        android:id="@+id/used_shop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/new_shop"
+        android:layout_margin="10dp"
+        android:text="used" />
+
+    <TextView
+        android:id="@+id/rental_shop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/used_shop"
+        android:layout_margin="10dp"
+        android:text="rental" />
+
+</RelativeLayout>

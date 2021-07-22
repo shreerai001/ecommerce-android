@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/title_brand_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:padding="5dp"
+        android:text="@string/sort_detail"
+        android:layout_marginTop="5dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:drawableEnd="@drawable/ic_expand_less_black_24dp"
+        android:textSize="18sp" />
+
+   <RadioGroup
+       android:id="@+id/radio_group"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="5dp"
+       android:orientation="vertical"
+       android:layout_marginBottom="20dp">
+
+       <RadioButton
+           android:id="@+id/newest"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/newest"
+           android:padding="10dp"
+           android:textSize="16sp"
+           android:layout_margin="8dp"/>
+       <RadioButton
+           android:id="@+id/a_z"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/a_z"
+           android:padding="10dp"
+           android:textSize="16sp"
+           android:layout_marginStart="8dp"/>
+
+       <RadioButton
+           android:id="@+id/z-a"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/z_a"
+           android:padding="10dp"
+           android:textSize="16sp"
+           android:layout_marginTop="4dp"
+           android:layout_marginStart="8dp"/>
+
+       <RadioButton
+           android:id="@+id/lowest"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/lowest"
+           android:padding="10dp"
+           android:textSize="16sp"
+           android:layout_margin="8dp"/>
+       <RadioButton
+           android:id="@+id/hieghest-lowest"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/highest_lowest"
+           android:padding="10dp"
+           android:textSize="16sp"
+           android:layout_marginStart="8dp"
+           android:layout_marginBottom="10dp"/>
+
+   </RadioGroup>
+
+</LinearLayout>
